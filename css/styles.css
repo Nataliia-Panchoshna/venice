@@ -3,10 +3,10 @@
 }
 
 body {
-    font-family: Great Vibes,
+    font-family: Libre Baskerville,
         serif;
     color: #333336;
-    background-color: #d1caca;
+    background-color: hsl(195, 50%, 91%);
 }
 
 ul,
@@ -53,7 +53,7 @@ button {
 
 .container {
     max-width: 1158px;
-    padding: 0 16px;
+    padding: 12px 18px;
     margin: 0 auto;
 }
 
@@ -73,19 +73,41 @@ button {
     border-bottom: 1px solid #c8eef5;
     box-shadow: 0 1px 6px 0 rgba(49, 50, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(58, 60, 83, 0.08);
 }
-
-.first-subtitle {
-    font-family: Pattaya, serif;
-    font-weight: 400;
+.first-section {
+    padding: 20px;
+}
+.title-flat {
+    padding-bottom: 24px;
+}
+.first-title {
+    font-family: Libre Baskerville, serif;
+    font-weight: 700;
     line-height: 1.07;
-    font-size: 24px;
+    font-size: 40px;
     text-align: center;
     color: rgb(31, 44, 44);
     align-items: center;
+    padding-bottom: 24px;
 }
-
-.first-text {
-    font-family: Great Vibes, serif;
+/*.detail {
+    margin: 24px;
+    
+}*/
+.description {
+    font-family: Libre Baskerville, serif;
     font-weight: 400;
     font-size: 14px;
+    font-style: normal;
+    text-align: left;
+    color: rgb(43, 37, 37);
+    padding-bottom: 24px;
+}
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+   
+}
+.photo-list {
+    width: calc((100% - 24px) / 3);
 }
